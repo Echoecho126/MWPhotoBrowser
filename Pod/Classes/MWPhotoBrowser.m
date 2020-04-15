@@ -1663,6 +1663,7 @@ static void * MWVideoPlayerObservation = &MWVideoPlayerObservation;
     } else {
         [self.progressHUD hideAnimated:YES];
     }
+	
     self.navigationController.navigationBar.userInteractionEnabled = YES;
 }
 
